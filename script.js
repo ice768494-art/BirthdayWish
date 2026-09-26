@@ -7,23 +7,22 @@ const wishes = [
   {
     icon: "âœ¨",
     title: "A Special Person",
-    text: "Some people make ordinary moments special just by being there. I am really happy to have a Person like you. Stay the same wonderful Sarvika. ðŸŒ·",
-  },
-  {
-    icon: "ðŸ¦‹",
-    title: "Keep Shining",
-    text: "Never stop chasing your dreams. Keep your beautiful smile, keep your kind heart, and keep shining wherever life takes you. âœ¨",
+    text: "I Know You Have No Feelings But I Don't Know It Was Attraction Or Anything. Stay the same wonderful Sarvika. ðŸŒ·",
   },
   {
     icon: "ðŸ’ž",
-    title: "More Memories",
-    text: "I wish we get many more funny moments, crazy conversations, unforgettable memories and beautiful days together. Cheers to another year! ðŸ’—",
-  },
+    title: "Chapter Ends 🤍",
+    text: "Enaku Theriyum Innum 5 Months Tha Athuku Apuram Una Paka Mudiyutha Nu Atha Itha Create Panen And Sorry Anaiku Na Yarunu Solama Message Panathu 😔"},
   {
     icon: "ðŸŽ‚",
     title: "My Birthday Wish",
     text: "I Know This Is Late 🙂.May this new year of your life be filled with happiness, success, love, peace and everything you truly deserve. Once again, Happy Birthday Sarvika! ðŸŽ‰ðŸ’—",
   },
+  {
+    icon :  "ðŸ¦‹",
+    title : "Thank You",
+    text : "Thank You For Reading This 🙂"
+  },  
 ];
 
 let current = 0;
