@@ -7,7 +7,7 @@ const wishes = [
   {
     icon: "âœ¨",
     title: "A Special Person",
-    text: "I Know You Have No Feelings But I Don't Know It Was Attraction Or Anything. Stay the same wonderful Sarvika. ðŸŒ·",
+    text: "I Know You Have No Feelings But I Don't Know It Was Attraction Or Anything.So Stay Happy Sarvika. ðŸŒ·",
   },
   {
     icon: "ðŸ’ž",
