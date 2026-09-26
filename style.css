@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@500;600;700&display=swap');
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:#08050c;color:#fff;font-family:'DM Sans',sans-serif;
+  overflow-x:hidden;
+}
+body:before{
+  content:"";position:fixed;inset:0;z-index:-4;
+  background:radial-gradient(circle at 50% 12%,#6f1f60 0,#29102f 30%,#0b0710 70%);
+}
+body:after{
+  content:"";position:fixed;inset:0;z-index:-3;opacity:.2;
+  background-image:radial-gradient(#fff 1px,transparent 1px);
+  background-size:58px 58px;animation:stars 18s linear infinite;
+}
+.glow{position:fixed;border-radius:50%;filter:blur(85px);z-index:-2;opacity:.55;animation:float 8s ease-in-out infinite}
+.glow1{width:340px;height:340px;background:#ff43ae;left:-130px;top:18%}
+.glow2{width:400px;height:400px;background:#9b43ff;right:-150px;bottom:8%;animation-delay:-4s}
+@keyframes float{50%{transform:translate(30px,-25px) scale(1.08)}}
+@keyframes stars{to{background-position:0 580px}}
+
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:65px 20px;position:relative}
+.top-brand{position:absolute;top:22px;left:25px;color:#ff9ed8;letter-spacing:2px;font-size:12px}
+.hero-inner{max-width:760px}
+.eyebrow{font-size:10px;letter-spacing:4px;color:#ffb8e3;margin-bottom:15px}
+h1,h2,h3{font-family:'Playfair Display',serif}
+h1{font-size:clamp(50px,9vw,90px);line-height:.96;text-shadow:0 0 35px #ff4fb877}
+h1 span{
+  background:linear-gradient(90deg,#fff,#ff9bd7,#d796ff);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.intro{max-width:570px;margin:24px auto;color:#e7d0e3;line-height:1.8}
+.girl-frame{
+  width:205px;height:205px;padding:7px;border-radius:50%;margin:30px auto;
+  background:linear-gradient(135deg,#fff,#ff4fb8,#a95cff);
+  box-shadow:0 0 28px #ff4fb8aa,0 0 85px #a84dff55;
+  animation:pulse 3s infinite;
+}
+.girl-frame img{width:100%;height:100%;object-fit:cover;border-radius:50%;border:3px solid #170b19}
+@keyframes pulse{50%{box-shadow:0 0 45px #ff4fb8dd,0 0 110px #a84dff77}}
+.open-btn,.next-btn{
+  border:0;color:white;cursor:pointer;border-radius:30px;
+  background:linear-gradient(90deg,#ff43a9,#9f4cff);
+  box-shadow:0 10px 35px #ff43a955;font-weight:700;
+}
+.open-btn{padding:15px 28px}
+
+.wishes,.memories,.song-section{max-width:950px;margin:auto;text-align:center;padding:100px 20px;min-height:90vh}
+h2{font-size:50px;margin-bottom:35px}
+.wish-tabs{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:24px}
+.tab{
+  width:48px;height:42px;border-radius:23px;border:1px solid #ffffff1c;
+  background:#ffffff09;color:#cdbccc;cursor:pointer;transition:.25s
+}
+.tab.active{background:linear-gradient(90deg,#ff43a9,#9f4cff);color:#fff;box-shadow:0 0 28px #ff43a955}
+.wish-card,.last-card,.youtube-card{
+  border:1px solid #ffffff1c;background:#ffffff0b;backdrop-filter:blur(20px);
+  border-radius:30px;box-shadow:0 20px 75px #0007
+}
+.wish-card{
+  min-height:430px;padding:50px 25px;display:flex;flex-direction:column;
+  justify-content:center;align-items:center
+}
+.wish-count{font-size:11px;letter-spacing:3px;color:#ff8dce}
+.wish-icon{font-size:52px;margin:12px}
+.wish-card h3{font-size:36px;margin:5px 0 15px}
+.wish-card p{max-width:620px;color:#dec9dc;line-height:1.9;font-size:16px}
+.next-area{margin-top:30px}
+.next-btn{padding:13px 23px}
+.next-btn span{font-size:19px;margin-left:7px}
+
+.memory-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.memory{position:relative;overflow:hidden;aspect-ratio:1;border-radius:25px;border:1px solid #ffffff1c;box-shadow:0 15px 50px #0007}
+.memory img{width:100%;height:100%;object-fit:cover;display:block;transition:.5s}
+.memory:hover img{transform:scale(1.08)}
+.memory:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 50%,#000c)}
+.memory span{position:absolute;z-index:2;left:18px;bottom:17px;font-family:'Playfair Display',serif;font-size:18px}
+
+.youtube-card{padding:18px;max-width:720px;margin:auto}
+.youtube-title{font-family:'Playfair Display',serif;font-size:25px;margin:5px 0 15px;color:#ffb0df}
+.youtube-card iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:18px}
+.youtube-card p{color:#bca9ba;font-size:13px;margin:14px 0 4px}
+
+.last{min-height:85vh;padding:60px 20px;display:grid;place-items:center;text-align:center}
+.last-card{max-width:720px;padding:55px 35px}
+.last-icon{font-size:55px}
+.last-card h2{margin:10px 0 20px}
+.last-card>p:not(.eyebrow){color:#decbdc;line-height:1.9}
+.signature{font-family:'Great Vibes',cursive;color:#ff9bd7;font-size:34px;margin-top:28px}
+footer{text-align:center;padding:35px;color:#947f91;font-size:12px;line-height:2}
+footer strong{color:#ff9bd7}footer a{color:#ffaddf;text-decoration:none}
+.petals i{position:fixed;top:-30px;color:#ff9ed9;text-shadow:0 0 12px #ff4fb8;animation:fall linear infinite;z-index:0;pointer-events:none}
+@keyframes fall{to{transform:translateY(110vh) rotate(360deg);opacity:.1}}
+
+@media(max-width:680px){
+  h2{font-size:40px}.wishes,.memories,.song-section{padding:75px 15px}
+  .memory-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .wish-card{min-height:430px}.last-card h2{font-size:40px}
+}
