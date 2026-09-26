@@ -2,12 +2,12 @@ const wishes = [
   {
     icon: "ðŸŒ¸",
     title: "A Beautiful Day",
-    text: "Kaviya, today is your day. I hope every moment brings you a reason to smile and every little thing feels extra beautiful. Happy Birthday! ðŸ’—",
+    text: "Sarvika, today is your day. I hope every moment brings you a reason to smile and every little thing feels extra beautiful. Happy Birthday! ðŸ’—",
   },
   {
     icon: "âœ¨",
-    title: "A Special Friend",
-    text: "Some people make ordinary moments special just by being there. I am really happy to have a friend like you. Stay the same wonderful Kaviya. ðŸŒ·",
+    title: "A Special Person",
+    text: "Some people make ordinary moments special just by being there. I am really happy to have a Person like you. Stay the same wonderful Sarvika. ðŸŒ·",
   },
   {
     icon: "ðŸ¦‹",
@@ -22,7 +22,7 @@ const wishes = [
   {
     icon: "ðŸŽ‚",
     title: "My Birthday Wish",
-    text: "May this new year of your life be filled with happiness, success, love, peace and everything you truly deserve. Once again, Happy Birthday Kaviya! ðŸŽ‰ðŸ’—",
+    text: "I Know This Is Late 🙂.May this new year of your life be filled with happiness, success, love, peace and everything you truly deserve. Once again, Happy Birthday Sarvika! ðŸŽ‰ðŸ’—",
   },
 ];
 
